@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ContosoSuitesVectorizationFunction", "ContosoSuitesVectorizationFunction.csproj", "{2103CADC-0BF4-416E-A864-8817FA4A0596}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "obj", "obj", "{01770212-9208-4A01-8E38-8B6CF1EC7E2C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Debug", "Debug", "{9B3FE2C6-1352-4F66-BF26-D1FC15178A54}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "net8.0", "net8.0", "{E6226F25-3A99-4435-B496-309AA101BF2F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorkerExtensions", "obj\Debug\net8.0\WorkerExtensions\WorkerExtensions.csproj", "{8FE226B8-8205-4DE8-85BD-717FE3094020}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2103CADC-0BF4-416E-A864-8817FA4A0596}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2103CADC-0BF4-416E-A864-8817FA4A0596}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2103CADC-0BF4-416E-A864-8817FA4A0596}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2103CADC-0BF4-416E-A864-8817FA4A0596}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FE226B8-8205-4DE8-85BD-717FE3094020}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FE226B8-8205-4DE8-85BD-717FE3094020}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FE226B8-8205-4DE8-85BD-717FE3094020}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FE226B8-8205-4DE8-85BD-717FE3094020}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9B3FE2C6-1352-4F66-BF26-D1FC15178A54} = {01770212-9208-4A01-8E38-8B6CF1EC7E2C}
+		{E6226F25-3A99-4435-B496-309AA101BF2F} = {9B3FE2C6-1352-4F66-BF26-D1FC15178A54}
+		{8FE226B8-8205-4DE8-85BD-717FE3094020} = {E6226F25-3A99-4435-B496-309AA101BF2F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {519FE2D0-4860-44E5-AA5E-57ECD9AEB5A8}
+	EndGlobalSection
+EndGlobal
